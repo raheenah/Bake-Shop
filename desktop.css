@@ -23,7 +23,7 @@ main {
   margin: 0 auto;
 }
 
-@media (min-width: 886px){
+@media (min-width: 886px) {
   body {
     max-width: 100dvw;
     /* background-color: #0056b3; */
@@ -38,7 +38,7 @@ main {
     font-size: 1.5rem;
     color: var(--focus);
   }
-  .content{
+  .content {
     display: grid;
     gap: 50px;
     /* margin-block:3rem; */
@@ -69,7 +69,7 @@ main {
     display: flex;
     width: 100%;
     /* max-height: 60%; */
-overflow-y: visible;
+    overflow-y: visible;
     /* border: 2px solid var(--focus); */
     /* min-height: 60%; */
     max-width: 100%;
@@ -81,8 +81,8 @@ overflow-y: visible;
     align-items: center;
     /* margin-block-end: 2rem; */
     box-sizing: border-box;
-position: relative;
-  padding-bottom:? 4rem;
+    position: relative;
+    padding-bottom: ? 4rem;
   }
   /* .item_image picture {
     padding: 0;
@@ -216,9 +216,9 @@ position: relative;
   .cart {
     display: flex;
     flex-direction: column;
-    min-height:fit-content;
+    min-height: fit-content;
     height: 50dvh;
-max-width: 100%;
+    max-width: 100%;
     gap: 1rem;
     padding: 1rem;
     justify-content: center;
@@ -272,11 +272,11 @@ max-width: 100%;
   /* .cart_items::-webkit-scrollbar {
   display: none;
 } */
-/* .cart_items {
+  /* .cart_items {
   max-height: 30dvh;
   overflow-y: scroll;
 } */
-  
+
   .cart_with_items ul li {
     display: flex;
     flex-direction: column;
@@ -374,24 +374,24 @@ max-width: 100%;
     width: 100%;
     justify-content: stretch;
   }
- aside {
-  display: flex;
-  flex-direction: column;
-  min-height: 80dvh;
-  /* align-content: stretch; */
-  position: fixed;
-  top: 50%;         
-  left: 50%;         
-  transform: translate(-50%, -50%); 
-  flex-grow: 1;
-  margin: 0 auto;
-  padding-inline: 2%;
-  padding-block: 1rem;
-  max-width: 100dvh;
+  aside {
+    display: flex;
+    flex-direction: column;
+    min-height: 80dvh;
+    /* align-content: stretch; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-grow: 1;
+    margin: 0 auto;
+    padding-inline: 2%;
+    padding-block: 1rem;
+    max-width: 100dvh;
 
-  z-index: 1000;
-  background-color: var(--white);
-}
+    z-index: 1000;
+    background-color: var(--white);
+  }
 
   /* aside {
     display: flex;
@@ -442,9 +442,9 @@ max-width: 100%;
     bottom: auto;
     height: auto;
   }
-    .new_order:hover {
-        background-color: var(--focus-light);
-    }
+  .new_order:hover {
+    background-color: var(--focus-light);
+  }
   /* aside {
   background: #f9f9f9;
   padding: 20px;

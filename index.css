@@ -119,6 +119,8 @@ main {
   .add_to_cart button {
     padding: 1rem 1.4rem;
     margin: 0 auto;
+        color: var(--white);
+
     border-radius: 30px;
     background-color: var(--white);
     z-index: 100;
@@ -408,6 +410,8 @@ main {
     padding: 0;
   }
   .new_order {
+    color: var(--white);
+
     width: 100%;
     background-color: var(--focus);
     border: 0;
